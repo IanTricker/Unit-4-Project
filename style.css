@@ -1,0 +1,78 @@
+/* General body styling */
+body {
+    font-family: 'Oswald', sans-serif;
+    background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202110/2000/aGhopp3MHppi7kooGE2Dtt8C.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Title section styling */
+.title h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    
+}
+
+/* Questions section styling */
+.questions {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+}
+
+.questions h4 {
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+
+.questions img {
+    width: 60%; /* Make images responsive */
+    height: 30vw;
+    border-radius: 8px;
+}
+
+/* Result section styling */
+.result {
+    background-color: #e2e2e2;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+
+button {
+    width: 40%;
+    margin: 0 auto 20px;
+    padding: 15px 20px;
+    background-color: #17d3ff;
+    color: white;
+    border: 2px solid transparent;
+    /* Transparent border for hover effect */
+    border-radius: 20px;
+    /* Rounded corners */
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s, transform 0.2s, border-color 0.3s;
+}
+
+button:hover {
+    background-color: #24c7ed;
+    /* Darker shade on hover */
+    border-color: #fee975;
+    /* Bright yellow border */
+    transform: translateY(-3px);
+}
+
+p
+{
+    font-size: x-large;
+}
